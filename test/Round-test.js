@@ -143,7 +143,6 @@ describe('Round', () => {
         round.takeTurn('array');
         round.takeTurn('boolean');
         round.takeTurn('.length');
-        console.log(round.calculatePercentCorrect());
 
         expect(round.endRound()).to.equal('** Round Over! ** You answered 67% of the questions correctly!');
     })
