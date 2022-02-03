@@ -32,6 +32,7 @@ class Round {
     }
 
     endRound() {
+        console.log(`** Round Over! ** You answered ${this.calculatePercentCorrect()}% of the questions correctly!`);
         return `** Round Over! ** You answered ${this.gamePercentage}% of the questions correctly!`;
     }
 }
