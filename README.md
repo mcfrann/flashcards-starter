@@ -1,71 +1,50 @@
-# FlashCards Starter Kit
-
-## Fork This Repo
-
-On the top right corner of this page, click the **Fork** button.
-
-## Setup
-
-Clone down the forked repo (from your GitHub). Since you don't want to name your project "flashcards-starter", you can use an optional argument when you run `git clone` (you replace the `[...]` with the terminal command arguments):
-
-```bash
-git clone [remote-address] [what you want to name the repo]
-```
-
-Once you have cloned the repo, change into the directory and install the library dependencies. Run:
-
-```bash
-npm install
-```
-
-To verify that it is setup correctly, run `npm test` in your terminal. You should have 5 pending tests in your `Card` test file that show up.
-
-Running `node index.js` from the root of your project should result in the following message being displayed in your terminal: 
-
-```bash
-Your project is running...
-```
-
-*Note that you will not need to you run your server until you are instantiating your `Game` class in Iteration 3. Prior to that, you should be using TDD to drive your code. You should check the functionality of your application by running your tests via `npm test`.*
+# FlashCards
+2111 FEE - First Solo Project of Mod 2
 
 
-## Where to Add Your Code
+## Table of Contents
+  - [Abstract](#abstract)
+  - [Technologies](#technologies)
+  - [Illustrations](#illustrations)
+  - [Install + Setup](#set-up)
+  - [Contributors](#contributors)
+	- [Wins](#wins)
+	- [Challenges + Improvements](#challenges-+-Improvements)
+  - [Project Specs](#project-specs)
 
-### JavaScript
+## Abstract
+	
+  Review your JavaScript knowledge! With FlashCards, you can play and study all within your terminal! The goal of this project was to implement Test Driven Development and learn how to write tests for my own code. 
 
-**Create all of your feature code files in the `src` directory.**
+## Technologies
+  - Javascript
+  - Mocha
+  - Chai
 
-We will be using the `module.exports` and `require` syntax to share code across files.
+## Illustrations
 
-## How to View Your Code in Action
+![Start Game](https://media.giphy.com/media/1GJ2AxLJ9AcG8hzYjc/giphy.gif)
 
-Once you are working through Iteration 3, you will want to start your server to test your functionality.
-In the terminal, run:
-
-```bash
-node index.js
-```
-
-When the game is functioning appropriately, you will be prompted for each question, have the opportunity to select an answer, and will be given feedback. You will be able to play through the entire deck of cards:
-
-![flash cards example gif](https://media.giphy.com/media/1zkb1q58eTiTH6D7wc/giphy.gif)
-
----
-
-## Test Files Organization
-
-Similar to feature code, your test code needs to be put in a specific place for it to run successfully.
-
-**Put all of your test files in the `test` directory.** As a convention, all test filenames should end with `-test.js`. For instance: `Round-test.js`.
-
-## Running Your Tests
-
-Run your test suite using the command:
-
-```bash
-npm test
-```
-
-The test results will output to the terminal.
+![Finish Game](https://media.giphy.com/media/rmeJigipGRi81R6j1N/giphy.gif)
 
 
+## Install + Setup
+	
+  Fork and clone this repo down to your machine, cd into folder and run `node index.js` to play the game!
+
+
+
+## Contributors
+  - [Francesca McConnell](https://github.com/mcfrann)
+
+## Wins
+	
+  Although I know I have a lot to improve on, I was proud of myself for how quickly I grasped the concept of Test Driven Development. I found writing the tests to be pretty straightforward and even though I ran into a couple hiccups, I trust that the gaps in my knowledge will be filled soon enough.
+
+## Challenges + Improvements
+	
+  I struggled specifically with getting the percentage of correct answers to be printed to the console. It took me a while to realize that I needed to `console.log` the result in my `Round.endRound()` method vs only returning it (although I still returned is to run a test on it in an easier way). I also struggled to grasp the syntax of `beforeEach` as most of the hook resources I found online seemed pretty vague in explanation, but thankfully my classmates helped me out with that!
+
+
+## Project Specs
+  - The project spec & rubric can be found [here](https://frontend.turing.edu/projects/flash-cards.html)
