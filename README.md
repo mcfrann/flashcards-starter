@@ -36,6 +36,10 @@
 
 ## Contributors
   - [Francesca McConnell](https://github.com/mcfrann)
+  - [Pamela Lovett](https://github.com/thatPamIAm)
+  - [Hannah Hudson](https://github.com/hannahhch)
+  - [Nik Seif](https://github.com/niksseif)
+  - [Travis Rollins](https://github.com/Kalikoze)
 
 ## Wins
 	
